@@ -1,0 +1,29 @@
+body {
+    color: white;
+    background: rgb(15, 15, 15);
+    font-family: Noto Sans, monospace;
+}
+
+.heading {
+    width: 80%;
+    font-size: 50px;
+}
+
+.name-of-objects, #result-object-name, #result-object-precision  {
+    font-size: 20px;
+    font-family: Lexend Deca, monospace;
+}
+
+#camera {
+    border: 2.5px solid white;
+    padding: 5%;
+    width: 400px;
+    height: 400px;
+}
+
+#result {
+    border: 2.5px solid white;
+    padding: 5%;
+    width: 400px;
+    height: 400px;
+}
