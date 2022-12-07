@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
 
    <link rel="stylesheet" href="style.css">
@@ -21,18 +21,23 @@
 
       <p style="font-size: 22px;"> The model is trained to identify the following objects: </p>
       <b class="name-of-objects"> 
-        Papa
+        Yellow Cup
           <br>
-        Hermana
+        Red Cup
           <br>
-        Mama
+        Green Bottle
           <br> 
-        Yo
+        Sharpener
+          <br>
+        Pencil 
       </b>
       <br>
       <br>
       <label> View of camera: </label>
-      <div id="camera"> </div> 
+      <div id="camera" style="width: 400px; height: 400px;">
+        <div></div>
+        <video autoplay="autoplay" playsinline="playsinline" style="width: 400px; height: 400px;"></video>
+      </div> 
 
       <br><br>
       <div id="result"></div>
@@ -51,5 +56,3 @@
 
   </body>
 </html>
-
- 
